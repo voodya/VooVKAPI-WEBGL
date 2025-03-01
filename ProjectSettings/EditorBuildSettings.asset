@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/VooVKAPI/Example/VKExampleScene.unity
+    path: Assets/VKExampleScene.unity
     guid: 848c66a43eed00c458e19baed110923b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
