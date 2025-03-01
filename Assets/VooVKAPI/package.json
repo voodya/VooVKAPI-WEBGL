@@ -1,0 +1,17 @@
+{
+  "name": "com.voodya.vooapi",
+  "displayName": "VooVKAPI",
+  "author": {
+    "name": "Voodya",
+    "url": "https://voodyadev.online/"
+  },
+  "version": "0.1.0",
+  "unity": "2018.4",
+  "description": "VKAPI",
+  "keywords": [ "api", "VK" ],
+  "license": "MIT",
+  "category": "Api",
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  }
+}
