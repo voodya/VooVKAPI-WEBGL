@@ -1,5 +1,9 @@
 # Unity VK Api
-
+Simple VK api
+Can Auth, GetUserPhoto, GetFriends and custom VK methods
 
 ## Install
-Use add package from git url "https://github.com/voodya/VooVKAPI-WEBGL.git?path=Assets/VooVKAPI"
+1 - Use add package from git url "https://github.com/voodya/VooVKAPI-WEBGL.git?path=Assets/VooVKAPI"
+2 - Unpack WEBGLTemplate unitypackage from Packages->VooVKAPI
+3 - Setup your application in "https://dev.vk.com/ru/admin/apps-list"
+4 - past app id in VKTamplate field
