@@ -1,12 +1,15 @@
 using System;
 using UnityEngine;
 
-public class VKCallBackHandler : MonoBehaviour
+namespace Voo.VKAPI
 {
-    public Action<string> OnHandle;
-
-    public void Handle(string rawData)
+    public class VKCallBackHandler : MonoBehaviour
     {
-        OnHandle?.Invoke(rawData);
+        public Action<string> OnHandle;
+
+        public void Handle(string rawData)
+        {
+            OnHandle?.Invoke(rawData);
+        }
     }
 }
