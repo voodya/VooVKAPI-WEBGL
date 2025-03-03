@@ -9,7 +9,8 @@ namespace Voo.VKAPI
 
         public void Handle(string rawData)
         {
-            OnHandle?.Invoke(rawData);
+            if (OnHandle == null) return;
+            OnHandle.Invoke(rawData);
         }
     }
 }
